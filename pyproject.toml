@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "end-to-end-machine-learning"
+version = "0.1.0"
+description = ""
+authors = ["Dong Liang <ldifer@gmail.com>"]
+readme = "README.md"
+packages = [{include = "end_to_end_machine_learning"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+dvc = {extras = ["gdrive"], version = "^3.36.1"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
